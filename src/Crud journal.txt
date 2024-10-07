@@ -1,0 +1,16 @@
+Simple CRUD program For IBM using React
+
+this is a to do list in react. i made this simple project to show my ability to use CRUD in react. so using the app
+You can add new tasks to the list, The app usually displays tasks in a list format, allowing you to see them at a glance. You can modify existing tasks by changing their details, marking them as completed, or deleting them.
+
+After I set up the project and install all needed dependencies, 
+i created the components.
+
+in app.js file i imported TodoWrapper component. 
+TodoForm.js - this component handles the creating new task. 
+Todo.js - This component will represent a single task. in the todo.js created a component that renders single task, used FontAwesomeIcon for the icon of edit and delete
+TodoWrapper.js - This component will render the list of tasks. in the TodoWrapper Component i imported the other needed components.
+EditTodoForm - This component will edit and delete list of task
+TodoWrapperLocalStorage.js this components manage the list of task and provide functions such as toggle complete, add, delete and edit functions.
+
+after long testing finally run the app in the development server.
